@@ -1,43 +1,75 @@
 .logo {
-    width: 200px;
+  width: 200px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
 }
-.navbar ul{
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin-right: 32px;
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin-right: 32px;
+  align-items: center;
 }
 
 .restaurant-card {
-    border: 1px solid black;
-    padding: 16px;
-    margin: 16px;
-    width: 200px;
+  border: 1px solid black;
+  padding: 16px;
+  margin: 16px;
+  width: 200px;
 }
 .restaurant-card:hover {
-    border: 1px solid #007bff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+  border: 1px solid #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 .resturant-img {
-    width: 100%;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 .restaurant-logo {
-    width: 100%;
-    object-fit: contain;
+  width: 100%;
+  object-fit: contain;
 }
 
 .restaurant-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.shimmer {
+  display: flex;
+}
+
+.shimmer-card {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: gray;
+}
+.login {
+  margin-bottom: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.search-bar {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.search-input {
+  display: flex;
+  gap: 8px;
+}
+
+.search-btn {
+  padding: 8px;
+  cursor: pointer;
 }

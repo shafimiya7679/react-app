@@ -1,0 +1,2 @@
+export const Header_Image_URL = 'https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png?size=large';
+export  const Restaurant_Image_URL = 'https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani.jpg';
